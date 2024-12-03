@@ -1,18 +1,4 @@
 [[redirects]]
-  from = "/api/*"
-  to = "https://api.kanguru365.com/api/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/upload/*"
-  to = "https://fileupload.kanguru365.com/api/:splat"
-  status = 200
-  force = true
-
-[[headers]]
-  for = "/api/*"
-  [headers.values]
-    Access-Control-Allow-Credentials = "true"
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET,OPTIONS,PATCH,DELETE,POST,PUT"
