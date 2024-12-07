@@ -8,6 +8,7 @@ function TeacherCard({ teacher, swiper }) {
     <div className="teacher-item">
       <div className="teacher-thumb shadow-lg" style={{borderRadius:'20px'}}>
         <img src={img} alt="" />
+        <span>{name}</span>
         {/* <div className="teacher-social">
           <a href="#">
             <i className="social_dribbble"></i>

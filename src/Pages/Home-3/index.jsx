@@ -6,6 +6,7 @@ import HomeThreeHero from "../../Component/Heros/HomeThreeHero";
 import FeatureHome3 from "../../Component/Features/FeatureHome3";
 import CourseHome3 from "../../Component/Course/CourseHome3";
 import Home3Register from "../../Component/Register/Home3Register";
+import Footer from "../../Component/Footer/Footer";
 import FeatureCourse from "../../Component/Course/FeatureCourse";
 import Home3Funfact from "../../Component/FunFact/Home3Funfact";
 import Home3AppStore from "../../Component/AppStore/Home3AppStore";
@@ -42,7 +43,7 @@ function Home3() {
         <Home3Funfact />
         <Home3AppStore />
         <CallAction />
-        <Home3Footer />
+        <Footer getStart={false} />
         <GotoTop />
       </>
     );

@@ -14,6 +14,8 @@ import Error from "./Pages/Error";
 import Blogs from "./Pages/Blogs";
 import SinglePost from "./Pages/SinglePost";
 import Contact from "./Pages/Contact";
+import Certificates from "./Pages/Certificates";
+import References from "./Pages/References";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +49,14 @@ const router = createBrowserRouter([
   {
     path: "/about-1",
     element: <About1 />,
+  },
+  {
+    path: "/certificates",
+    element: <Certificates />,
+  },
+  {
+    path: "/references",
+    element: <References />,
   },
   {
     path: "/about-2",

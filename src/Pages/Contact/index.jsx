@@ -29,37 +29,37 @@ function Contact() {
             <div className="row">
               <div className="col-md-4">
                 <div className="contact--info-area">
-                  <h3>Get in touch</h3>
+                  {/* <h3>Get in touch</h3>
                   <p>
                     Looking for help? Fill the form and start a new adventure.
-                  </p>
+                  </p> */}
                   <div className="single-info">
-                    <h5>Headquaters</h5>
+                    <h5>Adres</h5>
                     <p>
                       <i className="icon_house_alt"></i>
-                      744 New York Ave, Brooklyn, Kings,
-                      <br /> New York 10224
+                      Fulya Mah. Ortaklar Cad. Nur Apt. No: 11/3 Mecidiyeköy 34394 Şişli/İSTANBUL
+                      <br />
                     </p>
                   </div>
                   <div className="single-info">
-                    <h5>Phone</h5>
+                    <h5>Telefon</h5>
                     <p>
                       <i className="icon_phone"></i>
-                      (+642) 245 356 432
-                      <br />
-                      (+420) 336 476 328
+                      Telefon: (+90) 212 217 97 47 <br/>
+                      Faks: (+90) 212 217 97 45 <br/>
+                      Gsm: (+90) 532 296 07 13
                     </p>
                   </div>
                   <div className="single-info">
-                    <h5>Support</h5>
+                    <h5>Email</h5>
                     <p>
                       <i className="icon_mail_alt"></i>
-                      bisy@support.com
+                      torkarmarin@dposta.net
                       <br />
-                      help@education.com
+                      info@torkarmarin.com
                     </p>
                   </div>
-                  <div className="ab-social">
+                  {/* <div className="ab-social">
                     <h5>Follow Us</h5>
                     <a className="fac" href="#">
                       <i className="social_facebook"></i>
@@ -73,14 +73,14 @@ function Contact() {
                     <a className="lin" href="#">
                       <i className="social_linkedin"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-md-8">
                 <div className="contact-form">
-                  <h4>Let’s Connect</h4>
+                  <h4>İletişime Geçin</h4>
                   <p>
-                    Integer at lorem eget diam facilisis lacinia ac id massa.
+                    İletişim Formu
                   </p>
                   <ContactForm />
                 </div>

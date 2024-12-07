@@ -52,7 +52,7 @@ function Header({ className, logo, joinBtn, search }) {
                       )
                     }
                   >
-                    <a>Anasayfa</a>
+                    <a href="/">Anasayfa</a>
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
@@ -62,22 +62,6 @@ function Header({ className, logo, joinBtn, search }) {
                         }`}
                       ></i>
                     </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "home" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/">Home One</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-2">Home Two</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-3">Home Three</Link>
-                      </li>
-                    </ul>
                   </li>
                   <li
                     className="menu-item-has-children"
@@ -142,7 +126,7 @@ function Header({ className, logo, joinBtn, search }) {
                       )
                     }
                   >
-                    <a>Referanslarımız</a>
+                    <a href="/references">Referanslarımız</a>
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
@@ -152,22 +136,9 @@ function Header({ className, logo, joinBtn, search }) {
                         }`}
                       ></i>
                     </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "blog" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/blog">Blog Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/single-post">Blog Details</Link>
-                      </li>
-                    </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Sertifikalarımız</Link>
+                    <Link to="/certificates">Sertifikalarımız</Link>
                   </li>
                   <li>
                     <Link to="/contact">İletişim</Link>
