@@ -37,12 +37,12 @@ function Home3() {
         <Home3Teacher />
         <Feature />
         {/* <FeatureHome3 /> */}
-        <CourseHome3 />
-        <Home3Register />
-        <FeatureCourse />
-        <Home3Funfact />
-        <Home3AppStore />
-        <CallAction />
+        {/* <CourseHome3 /> */}
+        {/* <Home3Register /> */}
+        {/* <FeatureCourse /> */}
+        {/* <Home3Funfact /> */}
+        {/* <Home3AppStore /> */}
+        {/* <CallAction /> */}
         <Footer getStart={false} />
         <GotoTop />
       </>
